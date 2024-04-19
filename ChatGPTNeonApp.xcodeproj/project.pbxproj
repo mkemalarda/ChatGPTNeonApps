@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60CA42B2BCFA76E0065948B /* CustomPaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA42A2BCFA76E0065948B /* CustomPaywallVC.swift */; };
+		C60CA4302BCFC5240065948B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA42F2BCFC5240065948B /* HomeVC.swift */; };
+		C60CA4322BCFE6B60065948B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA4312BCFE6B60065948B /* SettingsVC.swift */; };
+		C60CA4352BCFF74B0065948B /* CustomSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA4342BCFF74B0065948B /* CustomSettingsButton.swift */; };
+		C60CA4382BD0268D0065948B /* GetPremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA4372BD0268D0065948B /* GetPremiumVC.swift */; };
+		C6EF56062BCE6F5C00EBE8A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF56052BCE6F5C00EBE8A7 /* AppDelegate.swift */; };
+		C6EF560A2BCE6F5C00EBE8A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF56092BCE6F5C00EBE8A7 /* ViewController.swift */; };
+		C6EF560F2BCE6F5E00EBE8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EF560E2BCE6F5E00EBE8A7 /* Assets.xcassets */; };
+		C6EF56122BCE6F5E00EBE8A7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6EF56112BCE6F5E00EBE8A7 /* Base */; };
+		C6EF561B2BCE712600EBE8A7 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C6EF561A2BCE712600EBE8A7 /* NeonSDK */; };
+		C6EF561E2BCE74CF00EBE8A7 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF561D2BCE74CF00EBE8A7 /* SplashVC.swift */; };
+		C6EF56202BCE74DF00EBE8A7 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF561F2BCE74DE00EBE8A7 /* OnboardingVC.swift */; };
+		C6EF56222BCE74E700EBE8A7 /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF56212BCE74E700EBE8A7 /* PaywallVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C60CA42A2BCFA76E0065948B /* CustomPaywallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPaywallVC.swift; sourceTree = "<group>"; };
+		C60CA42F2BCFC5240065948B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C60CA4312BCFE6B60065948B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		C60CA4342BCFF74B0065948B /* CustomSettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSettingsButton.swift; sourceTree = "<group>"; };
+		C60CA4372BD0268D0065948B /* GetPremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPremiumVC.swift; sourceTree = "<group>"; };
+		C6EF56022BCE6F5C00EBE8A7 /* ChatGPTNeonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTNeonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6EF56052BCE6F5C00EBE8A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6EF56092BCE6F5C00EBE8A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6EF560E2BCE6F5E00EBE8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6EF56112BCE6F5E00EBE8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6EF56132BCE6F5E00EBE8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6EF561D2BCE74CF00EBE8A7 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		C6EF561F2BCE74DE00EBE8A7 /* OnboardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		C6EF56212BCE74E700EBE8A7 /* PaywallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6EF55FF2BCE6F5C00EBE8A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6EF561B2BCE712600EBE8A7 /* NeonSDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C60CA42E2BCFC4E90065948B /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				C6EF56212BCE74E700EBE8A7 /* PaywallVC.swift */,
+				C60CA42A2BCFA76E0065948B /* CustomPaywallVC.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		C60CA4332BCFF7240065948B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C60CA4312BCFE6B60065948B /* SettingsVC.swift */,
+				C60CA4342BCFF74B0065948B /* CustomSettingsButton.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C60CA4362BD026720065948B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C60CA42F2BCFC5240065948B /* HomeVC.swift */,
+				C60CA4372BD0268D0065948B /* GetPremiumVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C6EF55F92BCE6F5C00EBE8A7 = {
+			isa = PBXGroup;
+			children = (
+				C6EF56042BCE6F5C00EBE8A7 /* ChatGPTNeonApp */,
+				C6EF56032BCE6F5C00EBE8A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6EF56032BCE6F5C00EBE8A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EF56022BCE6F5C00EBE8A7 /* ChatGPTNeonApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6EF56042BCE6F5C00EBE8A7 /* ChatGPTNeonApp */ = {
+			isa = PBXGroup;
+			children = (
+				C6EF56052BCE6F5C00EBE8A7 /* AppDelegate.swift */,
+				C6EF56092BCE6F5C00EBE8A7 /* ViewController.swift */,
+				C6EF561D2BCE74CF00EBE8A7 /* SplashVC.swift */,
+				C6EF561F2BCE74DE00EBE8A7 /* OnboardingVC.swift */,
+				C60CA4362BD026720065948B /* Home */,
+				C60CA42E2BCFC4E90065948B /* Paywall */,
+				C60CA4332BCFF7240065948B /* Settings */,
+				C6EF560E2BCE6F5E00EBE8A7 /* Assets.xcassets */,
+				C6EF56102BCE6F5E00EBE8A7 /* LaunchScreen.storyboard */,
+				C6EF56132BCE6F5E00EBE8A7 /* Info.plist */,
+			);
+			path = ChatGPTNeonApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6EF56012BCE6F5C00EBE8A7 /* ChatGPTNeonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6EF56162BCE6F5E00EBE8A7 /* Build configuration list for PBXNativeTarget "ChatGPTNeonApp" */;
+			buildPhases = (
+				C6EF55FE2BCE6F5C00EBE8A7 /* Sources */,
+				C6EF55FF2BCE6F5C00EBE8A7 /* Frameworks */,
+				C6EF56002BCE6F5C00EBE8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatGPTNeonApp;
+			packageProductDependencies = (
+				C6EF561A2BCE712600EBE8A7 /* NeonSDK */,
+			);
+			productName = ChatGPTNeonApp;
+			productReference = C6EF56022BCE6F5C00EBE8A7 /* ChatGPTNeonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6EF55FA2BCE6F5C00EBE8A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C6EF56012BCE6F5C00EBE8A7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C6EF55FD2BCE6F5C00EBE8A7 /* Build configuration list for PBXProject "ChatGPTNeonApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6EF55F92BCE6F5C00EBE8A7;
+			packageReferences = (
+				C6EF56192BCE712600EBE8A7 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+			);
+			productRefGroup = C6EF56032BCE6F5C00EBE8A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6EF56012BCE6F5C00EBE8A7 /* ChatGPTNeonApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6EF56002BCE6F5C00EBE8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6EF560F2BCE6F5E00EBE8A7 /* Assets.xcassets in Resources */,
+				C6EF56122BCE6F5E00EBE8A7 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6EF55FE2BCE6F5C00EBE8A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6EF56222BCE74E700EBE8A7 /* PaywallVC.swift in Sources */,
+				C60CA4302BCFC5240065948B /* HomeVC.swift in Sources */,
+				C6EF560A2BCE6F5C00EBE8A7 /* ViewController.swift in Sources */,
+				C60CA42B2BCFA76E0065948B /* CustomPaywallVC.swift in Sources */,
+				C6EF56202BCE74DF00EBE8A7 /* OnboardingVC.swift in Sources */,
+				C60CA4322BCFE6B60065948B /* SettingsVC.swift in Sources */,
+				C6EF56062BCE6F5C00EBE8A7 /* AppDelegate.swift in Sources */,
+				C6EF561E2BCE74CF00EBE8A7 /* SplashVC.swift in Sources */,
+				C60CA4352BCFF74B0065948B /* CustomSettingsButton.swift in Sources */,
+				C60CA4382BD0268D0065948B /* GetPremiumVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6EF56102BCE6F5E00EBE8A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6EF56112BCE6F5E00EBE8A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6EF56142BCE6F5E00EBE8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6EF56152BCE6F5E00EBE8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6EF56172BCE6F5E00EBE8A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZY6CP7394;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatGPTNeonApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkemalarda.ChatGPTNeonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6EF56182BCE6F5E00EBE8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QZY6CP7394;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatGPTNeonApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkemalarda.ChatGPTNeonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6EF55FD2BCE6F5C00EBE8A7 /* Build configuration list for PBXProject "ChatGPTNeonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EF56142BCE6F5E00EBE8A7 /* Debug */,
+				C6EF56152BCE6F5E00EBE8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6EF56162BCE6F5E00EBE8A7 /* Build configuration list for PBXNativeTarget "ChatGPTNeonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6EF56172BCE6F5E00EBE8A7 /* Debug */,
+				C6EF56182BCE6F5E00EBE8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6EF56192BCE712600EBE8A7 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6EF561A2BCE712600EBE8A7 /* NeonSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6EF56192BCE712600EBE8A7 /* XCRemoteSwiftPackageReference "neon-sdk" */;
+			productName = NeonSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C6EF55FA2BCE6F5C00EBE8A7 /* Project object */;
+}
