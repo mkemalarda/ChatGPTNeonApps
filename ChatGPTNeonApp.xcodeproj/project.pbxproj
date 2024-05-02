@@ -12,14 +12,21 @@
 		C60CA4322BCFE6B60065948B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA4312BCFE6B60065948B /* SettingsVC.swift */; };
 		C60CA4352BCFF74B0065948B /* CustomSettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA4342BCFF74B0065948B /* CustomSettingsButton.swift */; };
 		C60CA4382BD0268D0065948B /* GetPremiumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60CA4372BD0268D0065948B /* GetPremiumVC.swift */; };
+		C619CDB12BD3F1A70014974D /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C619CDB02BD3F1A70014974D /* TextCollectionViewCell.swift */; };
+		C661DEA92BDA318D00682E1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C661DEA82BDA318D00682E1E /* GoogleService-Info.plist */; };
+		C664B4182BD68B7F00115A3A /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = C664B4172BD68B7F00115A3A /* OpenAI */; };
+		C664B41B2BD68C2700115A3A /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = C664B41A2BD68C2700115A3A /* OpenAISwift */; };
+		C6B98C442BD294E7003F1A5E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B98C432BD294E7003F1A5E /* Services.swift */; };
+		C6B98C472BD29661003F1A5E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C6B98C462BD29661003F1A5E /* Alamofire */; };
+		C6B98C492BD29661003F1A5E /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = C6B98C482BD29661003F1A5E /* AlamofireDynamic */; };
 		C6EF56062BCE6F5C00EBE8A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF56052BCE6F5C00EBE8A7 /* AppDelegate.swift */; };
-		C6EF560A2BCE6F5C00EBE8A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF56092BCE6F5C00EBE8A7 /* ViewController.swift */; };
 		C6EF560F2BCE6F5E00EBE8A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6EF560E2BCE6F5E00EBE8A7 /* Assets.xcassets */; };
 		C6EF56122BCE6F5E00EBE8A7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C6EF56112BCE6F5E00EBE8A7 /* Base */; };
 		C6EF561B2BCE712600EBE8A7 /* NeonSDK in Frameworks */ = {isa = PBXBuildFile; productRef = C6EF561A2BCE712600EBE8A7 /* NeonSDK */; };
 		C6EF561E2BCE74CF00EBE8A7 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF561D2BCE74CF00EBE8A7 /* SplashVC.swift */; };
 		C6EF56202BCE74DF00EBE8A7 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF561F2BCE74DE00EBE8A7 /* OnboardingVC.swift */; };
 		C6EF56222BCE74E700EBE8A7 /* PaywallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EF56212BCE74E700EBE8A7 /* PaywallVC.swift */; };
+		C6F099192BD2688E002829EF /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F099182BD2688E002829EF /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,15 +35,18 @@
 		C60CA4312BCFE6B60065948B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		C60CA4342BCFF74B0065948B /* CustomSettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSettingsButton.swift; sourceTree = "<group>"; };
 		C60CA4372BD0268D0065948B /* GetPremiumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPremiumVC.swift; sourceTree = "<group>"; };
+		C619CDB02BD3F1A70014974D /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		C661DEA82BDA318D00682E1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6B98C432BD294E7003F1A5E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		C6EF56022BCE6F5C00EBE8A7 /* ChatGPTNeonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTNeonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6EF56052BCE6F5C00EBE8A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6EF56092BCE6F5C00EBE8A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C6EF560E2BCE6F5E00EBE8A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6EF56112BCE6F5E00EBE8A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6EF56132BCE6F5E00EBE8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6EF561D2BCE74CF00EBE8A7 /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		C6EF561F2BCE74DE00EBE8A7 /* OnboardingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		C6EF56212BCE74E700EBE8A7 /* PaywallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaywallVC.swift; sourceTree = "<group>"; };
+		C6F099182BD2688E002829EF /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EF561B2BCE712600EBE8A7 /* NeonSDK in Frameworks */,
+				C664B41B2BD68C2700115A3A /* OpenAISwift in Frameworks */,
+				C6B98C492BD29661003F1A5E /* AlamofireDynamic in Frameworks */,
+				C664B4182BD68B7F00115A3A /* OpenAI in Frameworks */,
+				C6B98C472BD29661003F1A5E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,8 @@
 			children = (
 				C60CA42F2BCFC5240065948B /* HomeVC.swift */,
 				C60CA4372BD0268D0065948B /* GetPremiumVC.swift */,
+				C6F099182BD2688E002829EF /* AppModel.swift */,
+				C619CDB02BD3F1A70014974D /* TextCollectionViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -98,15 +114,16 @@
 			isa = PBXGroup;
 			children = (
 				C6EF56052BCE6F5C00EBE8A7 /* AppDelegate.swift */,
-				C6EF56092BCE6F5C00EBE8A7 /* ViewController.swift */,
 				C6EF561D2BCE74CF00EBE8A7 /* SplashVC.swift */,
 				C6EF561F2BCE74DE00EBE8A7 /* OnboardingVC.swift */,
+				C6B98C432BD294E7003F1A5E /* Services.swift */,
 				C60CA4362BD026720065948B /* Home */,
 				C60CA42E2BCFC4E90065948B /* Paywall */,
 				C60CA4332BCFF7240065948B /* Settings */,
 				C6EF560E2BCE6F5E00EBE8A7 /* Assets.xcassets */,
 				C6EF56102BCE6F5E00EBE8A7 /* LaunchScreen.storyboard */,
 				C6EF56132BCE6F5E00EBE8A7 /* Info.plist */,
+				C661DEA82BDA318D00682E1E /* GoogleService-Info.plist */,
 			);
 			path = ChatGPTNeonApp;
 			sourceTree = "<group>";
@@ -129,6 +146,10 @@
 			name = ChatGPTNeonApp;
 			packageProductDependencies = (
 				C6EF561A2BCE712600EBE8A7 /* NeonSDK */,
+				C6B98C462BD29661003F1A5E /* Alamofire */,
+				C6B98C482BD29661003F1A5E /* AlamofireDynamic */,
+				C664B4172BD68B7F00115A3A /* OpenAI */,
+				C664B41A2BD68C2700115A3A /* OpenAISwift */,
 			);
 			productName = ChatGPTNeonApp;
 			productReference = C6EF56022BCE6F5C00EBE8A7 /* ChatGPTNeonApp.app */;
@@ -160,6 +181,9 @@
 			mainGroup = C6EF55F92BCE6F5C00EBE8A7;
 			packageReferences = (
 				C6EF56192BCE712600EBE8A7 /* XCRemoteSwiftPackageReference "neon-sdk" */,
+				C6B98C452BD29661003F1A5E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C664B4162BD68B7F00115A3A /* XCRemoteSwiftPackageReference "OpenAI" */,
+				C664B4192BD68C2700115A3A /* XCRemoteSwiftPackageReference "OpenAISwift" */,
 			);
 			productRefGroup = C6EF56032BCE6F5C00EBE8A7 /* Products */;
 			projectDirPath = "";
@@ -177,6 +201,7 @@
 			files = (
 				C6EF560F2BCE6F5E00EBE8A7 /* Assets.xcassets in Resources */,
 				C6EF56122BCE6F5E00EBE8A7 /* Base in Resources */,
+				C661DEA92BDA318D00682E1E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,15 +213,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6EF56222BCE74E700EBE8A7 /* PaywallVC.swift in Sources */,
+				C6B98C442BD294E7003F1A5E /* Services.swift in Sources */,
 				C60CA4302BCFC5240065948B /* HomeVC.swift in Sources */,
-				C6EF560A2BCE6F5C00EBE8A7 /* ViewController.swift in Sources */,
 				C60CA42B2BCFA76E0065948B /* CustomPaywallVC.swift in Sources */,
 				C6EF56202BCE74DF00EBE8A7 /* OnboardingVC.swift in Sources */,
 				C60CA4322BCFE6B60065948B /* SettingsVC.swift in Sources */,
 				C6EF56062BCE6F5C00EBE8A7 /* AppDelegate.swift in Sources */,
+				C619CDB12BD3F1A70014974D /* TextCollectionViewCell.swift in Sources */,
 				C6EF561E2BCE74CF00EBE8A7 /* SplashVC.swift in Sources */,
 				C60CA4352BCFF74B0065948B /* CustomSettingsButton.swift in Sources */,
 				C60CA4382BD0268D0065948B /* GetPremiumVC.swift in Sources */,
+				C6F099192BD2688E002829EF /* AppModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +379,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mkemalarda.ChatGPTNeonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkemalarda.ChatGPTNeonApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -379,7 +406,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mkemalarda.ChatGPTNeonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkemalarda.ChatGPTNeonApps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -411,6 +438,30 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C664B4162BD68B7F00115A3A /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.8;
+			};
+		};
+		C664B4192BD68C2700115A3A /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+		C6B98C452BD29661003F1A5E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
 		C6EF56192BCE712600EBE8A7 /* XCRemoteSwiftPackageReference "neon-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/neon-apps/neon-sdk.git";
@@ -422,6 +473,26 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C664B4172BD68B7F00115A3A /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C664B4162BD68B7F00115A3A /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+		C664B41A2BD68C2700115A3A /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C664B4192BD68C2700115A3A /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+		C6B98C462BD29661003F1A5E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B98C452BD29661003F1A5E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C6B98C482BD29661003F1A5E /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6B98C452BD29661003F1A5E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
 		C6EF561A2BCE712600EBE8A7 /* NeonSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C6EF56192BCE712600EBE8A7 /* XCRemoteSwiftPackageReference "neon-sdk" */;
